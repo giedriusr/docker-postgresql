@@ -14,4 +14,4 @@ This Dockerfile applies the instructions given here: http://wiki.postgresql.org/
 `[sudo] docker build -t postgresql .`
 
 ## Run it
-`[sudo] docker run --restart="always" -d -P --name "postgresql_server" postgresql
+`[sudo] docker run --restart="always" -d -P --name "postgresql_server" postgresql`
