@@ -1,4 +1,4 @@
-# Postges 9.3 server Docker container
+# Postgres 9.5 server Docker container
 It’s just regular Postgres database container that has one “patch” applied. The patch fixes the issue of new databases created with non UTF8 encoding.
 
 If you encounter the following error when running Rails command `rake db:create` this Dockerfile can help you:
